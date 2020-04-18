@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfSchedule.XForms;assembly=Syncfusion.SfSchedule.XForms"
+             mc:Ignorable="d"
+             x:Class="IeProject.AppointmentPage"
+             Title="Doctors List"
+             BackgroundColor="SteelBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Home" Clicked="GoHome" HeightRequest="90" FontAttributes="Bold" BackgroundColor="SteelBlue" FontSize="20" ></Button>
+            <StackLayout>
+                <Button Text="Dr.Atif Shazad" Clicked="Slct1_Clicked"  BackgroundColor="LightSteelBlue" HeightRequest="170" FontSize="30" FontAttributes="Bold, Italic"></Button>
+                <Button Text="Dr.Maged Baghdadi" Clicked="Slct2_Clicked"  BackgroundColor="LightSteelBlue" HeightRequest="170" FontSize="30" FontAttributes="Bold, Italic"></Button>
+                <Button Text="Dr.Mohammed Kabli" Clicked="Slct3_Clicked"  BackgroundColor="LightSteelBlue" HeightRequest="170" FontSize="30" FontAttributes="Bold, Italic"></Button>
+            </StackLayout>
+        </StackLayout>    
+    </ContentPage.Content>
+</ContentPage>

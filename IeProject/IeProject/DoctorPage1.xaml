@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IeProject.DoctorPage1"
+             Title="Dr.Atif Shazad"
+             BackgroundColor="AliceBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Home" Clicked="GoHome" HeightRequest="90" FontAttributes="Bold" BackgroundColor="SteelBlue" FontSize="20" ></Button>
+            <Label Text="  Dr. Atif  Shahzad (Associate Professor)" FontSize="20"></Label>
+            <Label Text="  E-mail: atifshahzad@Gmail.com" FontSize="20" ></Label>
+            <Label Text="  Phone Number: 0559321701‬" FontSize="20" ></Label>
+            <Label Text="  pk.linkedin.com/in/dratifshahzad" FontSize="20" ></Label>
+            <Image Source="DrAtif" HeightRequest="250"></Image>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

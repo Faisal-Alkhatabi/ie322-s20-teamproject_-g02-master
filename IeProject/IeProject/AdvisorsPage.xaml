@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IeProject.AdvisorsPage"
+             Title="Advisors"
+             BackgroundColor="SteelBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Home" Clicked="GoHome" HeightRequest="90" FontAttributes="Bold" BackgroundColor="SteelBlue" FontSize="20" ></Button>
+
+
+            <Button Text="Dr.Atif Shazad" Clicked="Doctor1_Clicked" BackgroundColor="LightSteelBlue" HeightRequest="170" FontSize="30" FontAttributes="Bold, Italic"/>
+            <Button Text="Dr.Majed Baghdadi" Clicked="Doctor2_Clicked" BackgroundColor="LightSteelBlue" HeightRequest="170" FontSize="30" FontAttributes="Bold, Italic"/>
+            <Button Text="Dr.Mohammed Kabli" Clicked="Doctor3_Clicked" BackgroundColor="LightSteelBlue" HeightRequest="170" FontSize="30" FontAttributes="Bold, Italic"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

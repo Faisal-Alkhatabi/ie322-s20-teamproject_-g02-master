@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IeProject.RootPage"
+             Title="Home"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- These are the main page buttons -->
+            <!-- Image='name' -->
+            <Button Text="Advisors"  Clicked="Advisors_Clicked" BackgroundColor="MediumAquamarine" TextColor="white"></Button>
+            <Button Text="Appointment"  Clicked="Appointment_Clicked" BackgroundColor="MediumAquamarine" TextColor="white"></Button>
+            <Button Text="About"  Clicked="About_Clicked" BackgroundColor="MediumAquamarine" TextColor="white"></Button>
+            <Image Source="KAU" HeightRequest="385" WidthRequest="700" HorizontalOptions="Center"></Image>
+            <Button Text="Logout"  Clicked="Logout_Clicked" BackgroundColor="Maroon" Margin="0,60,270,0" TextColor="white"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

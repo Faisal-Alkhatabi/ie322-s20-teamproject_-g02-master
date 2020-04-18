@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IeProject.SchedulPage2"
+             Title="Avilable Appointments"
+             xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar">
+    <ContentPage.Content>
+        <controls:Calendar Padding="5,1,2,5"   
+                   SelectedBorderWidth="5"   
+                   DisabledBorderColor="Black"  
+                   ShowNumberOfWeek="True"  
+                   StartDay="Sunday"  
+                   TitleLabelTextColor="Black"  
+                   TitleLeftArrowTextColor="Black" 
+                   TitleRightArrowTextColor="Black"
+                   SelectedDate="{Binding Date}"  
+                   SpecialDates="{Binding Attendances}"  
+                   DateCommand="{Binding DateChosen}"/>
+
+    </ContentPage.Content>
+</ContentPage>

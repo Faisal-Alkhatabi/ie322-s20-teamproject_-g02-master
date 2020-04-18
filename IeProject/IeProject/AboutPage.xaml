@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IeProject.AboutPage"
+             Title="About Us">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Home" Clicked="GoHome" HeightRequest="90" FontAttributes="Bold" BackgroundColor="SteelBlue" FontSize="20" ></Button>
+            <Label Text=" The program KAU Advisers  is a bridge to" FontSize="20"></Label>
+            <Label Text=" connect the students of KAU with the " FontSize="20"></Label>
+            <Label Text=" doctors more efficiently. By providing the " FontSize="20"></Label>
+            <Label Text=" available office hours by each doctor and" FontSize="20"></Label>
+            <Label Text=" showing all the needed information about " FontSize="20"></Label>
+            <Label Text=" them such as their resumé and contacts, this " FontSize="20"></Label>
+            <Label Text=" will result in saving the students time and" FontSize="20"></Label>
+            <Label Text=" increasing the accessibility to the" FontSize="20"></Label>
+            <Label Text=" instructors, instead of looking in other " FontSize="20"></Label>
+            <Label Text=" sources for their contact information or their" FontSize="20"></Label>
+            <Label Text=" availability on a specific time. And for the " FontSize="20"></Label>
+            <Label Text=" instructor prospective it will benefit them in " FontSize="20"></Label>
+            <Label Text=" arranging their time by keeping track it in" FontSize="20"></Label>
+            <Label Text=" addition it will lead to efficient time" FontSize="20"></Label>
+            <Label Text=" management." FontSize="20"></Label>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
